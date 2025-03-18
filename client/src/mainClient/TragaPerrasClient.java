@@ -4,7 +4,7 @@ import java.awt.*;
 public class TragaPerrasClient {
 
     JFrame marco = new JFrame("Maquina Tragaperras");
-
+ 
     //Panel Izquierdo
     JPanel panelIzquierdo = new JPanel();
     JLabel img1 = new JLabel("Imagen1");

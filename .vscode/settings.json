@@ -2,7 +2,8 @@
     "java.project.sourcePaths": [
         "shared/src",
         "client/src/resources/assets",
+        "client/src/resources",
         "client/src/mainClient",
-        "client/src/resources"
+        "server/src/mainServer"
     ]
 }
