@@ -5,6 +5,8 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/*Atencion, dentro de Cliente solo establecera la conexion con el servidor, 
+y enviara algunas variables de InterfazTragaPerrasClient por aqui directo al servidor*/
 
 public class Cliente {
     public static void main(String[] args) {

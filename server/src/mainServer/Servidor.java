@@ -6,6 +6,8 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
+/*Aqui solo se vera la conexion con el cliente y se recibiran los resultados de los hilos */
 public class Servidor {
 
     public static void main(String[] args) {
@@ -40,6 +42,9 @@ public class Servidor {
         } catch (IOException ex){
             Logger.getLogger(Servidor.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
+        //Antes de este proceso, previamente tendria que recibir las variables respuesta desde el cliente
+        comprobarResultado(respuesta1, respuesta2, respuesta3, respuesta4, respuesta5);
+        //Despues de ejecutar comprobar resultado, este tendria que devolver si el jugador gano el juego o no
+
     
 }
